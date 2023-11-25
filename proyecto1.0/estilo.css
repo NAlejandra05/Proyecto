@@ -1,0 +1,255 @@
+/* enlace letra google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --main-color:#fe5b3d;
+    --second-color:#ffac38;
+    --text-color:#444;
+    --gradient: linear-gradient(#fe5b3d,#ffac38);
+
+}
+
+ html::-webkit-scrollbar {
+    width:0.5rem;
+ }
+
+ html::-webkit-scrollbar-track {
+    background: transparent;
+ }
+
+ html::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    border-radius: 5rem;
+ }
+ section {
+    padding: 50px 100px;
+ }
+
+ .header {
+   position: fixed;
+   width: 100%;
+   top: 0;
+   right: 0;
+   z-index: 1000;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background: #eeeff1;
+   padding: 15px 100px;
+}
+
+.logo img {
+   width: 400px;
+}
+
+.navbar {
+   display: flex;
+}
+.navbar__item {
+   position: relative;
+   margin-right: 10px; /* Un margen derecho de 10px, solo como ejemplo */
+   /* Otros estilos según sea necesario */
+}
+
+.navbar__link {
+   font-size: 20px;
+   padding: 10px 80px;
+   color: var(--text-color);
+   font-weight: 500;
+}
+.navbar__link::after {
+   content: '';
+   width: 0%;
+   height: 3px;
+   background: var(--gradient);
+   position: absolute;
+   bottom: -4px;
+   left: 0;
+   transition: 0.5s;
+}
+.navbar__link:hover::after {
+   width: 100%;
+}
+
+ .navbar li {
+   position: relative; 
+}
+
+ .navbar a {
+    font-size: 20px;
+    padding: 10px 80px;
+    color: var(--text-color);
+    font-weight: 500;
+ }
+ 
+ .navbar a::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: var(--gradient);
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    transition: 0.5s;
+ }
+
+ .navbar a:hover:after {
+    width: 100%;
+ }
+
+ .header-btn a {
+    padding: 10px 20px;
+    color: var(--text-color);
+    font-weight: 500;
+ }
+ #menu-icon {
+   font-size: 24px;
+   cursor: pointer;
+   z-index: 10001;
+   display: none;
+}
+.home {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background: url(./img/carro.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+ }
+
+ .text h1 {
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+ }
+
+ .text span {
+    color: var(--main-color);
+ }
+
+.text p {
+    margin: 00.5rem 1rem;
+ }
+
+ .form-container form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    bottom: 4rem;
+    left: 100px;
+    background:#fff;
+    padding: 20px;
+    border-radius: 0.5rem;
+
+ }
+
+ .input-box {
+    flex: 1 1 7rem;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .input-box input {
+    padding: 7px; /*Agrega relleno al interior del cuadro de entrada.*/
+    outline: none; /* elimina el contorno de enfoque predeterminado que los navegadores aplican a los elementos enfocados.*/
+    border: none; /*Elimina el borde predeterminado del elemento de entrada*/
+    background:#eeeff1; /* establece el color de fondo del elemento de entrada.*/
+    border-radius: 0.5rem; /* Agrega un radio de borde para darle esquinas redondeadas */
+    font-size: 1rem; /*establece el tamaño de fuente para el texto dentro del elemento */
+ }
+ .form-container form .btn {
+   flex: 1 1 7rem;
+   padding: 10px 34px;
+   border: none;
+   border-radius: 0.5rem;
+   background: #474fa0;
+   color: #fff;
+   font-size: 15px;
+   font-weight: 500;
+ }
+
+ .form-container form .btn:hover {
+   background: var(--main-color);
+ }
+
+ .Services-container {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(600px, 600px));
+   gap: 1rem;
+   margin-top: 2rem;
+   justify-content: end;
+}
+
+ .filtro {
+   width: 95%;
+   margin: 0 auto;
+}
+
+ .buscador-container {
+   margin: 1rem 0;
+}
+
+ .buscador-container input {
+   background-color: transparent;
+   width: 40%;
+   border-bottom: 2px solid #110f29;
+   padding: 1rem 0.3rem;
+}
+
+ .buscador-container input:focus{
+   border-bottom-color: magenta;
+}
+
+/* Estilo  de la caja */
+.box {
+   border: 1px solid #ddd; /* Agrega un borde sólido */
+   padding: 10px; /* Añade el relleno interno */
+   margin: 10px;  /* Añade margen */
+   border-radius: 1rem; /* Agrega borde para la esquina sea redonda */
+   display: flex; /* Utilizar un diseño de caja flexible */
+   flex-direction: column; /* Organiza en columnas */
+   align-items: center; /* Centra horizontalmente */
+   text-align: center; /* Centra el texto horizontalmente */
+ }
+
+/* Estilo para las imágenes dentro de la caja */
+ .box img {
+   width: 100%; /* Establecer el ancho de la imagen  */
+   height: 100%; /* Establecer la altura de la imagen */
+   border-radius: 1rem; /* Agrega  borde para esquinas redondeadas */
+   padding: 8px; /* Añade relleno alrededor de la imagen */
+   object-fit: cover;  /*ajusta la imagen a la caja */
+   object-position: center; /* Centra la imagen  */
+   margin-bottom: 10px; /* Espacio entre la imagen y la información */
+ }
+
+ /* Estilo para la paginación */
+ .paginacion {
+   display: flex; /* Muestra los elementos de la lista en línea */
+   list-style: none; /* Eliminar los marcadores de lista */
+   padding: 0; /* Eliminar el relleno de la lista */ 
+   justify-content: center; /* Centrar la paginación horizontalmente */
+ }
+
+ /* Estilo para los elementos de la lista de paginación */
+ .paginacion li {
+   margin: 0 5px; /*Añade la margen para separar cada elemento de paginación */
+   cursor: pointer; /* Establecer el cursor como puntero */
+   
+ }

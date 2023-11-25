@@ -1,0 +1,39 @@
+<!-- detail.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Detalle del Elemento</title>
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="header__title">Detalle del Elemento</h1>
+    </header>
+
+    <div class="container">
+        <div class="detail">
+            <img src="element_image.jpg" alt="Element Image" class="detail__image">
+            
+            <h2 class="detail__title">Título del Elemento</h2>
+
+            <div class="properties">
+                <label for="property1">Propiedad 1:</label>
+                <input type="text" id="property1">
+
+                <!-- Repite esto para las otras propiedades -->
+                
+                <label for="property10">Propiedad 10:</label>
+                <input type="text" id="property10">
+            </div>
+
+            <button class="btn" onclick="actualizarPropiedades()">Actualizar</button>
+            <a href="index.html" class="btn">Regresar</a>
+        </div>
+    </div>
+
+    <script src="detail.js"></script>
+</body>
+</html>

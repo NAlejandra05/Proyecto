@@ -1,0 +1,148 @@
+/* enlace letra google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 20px;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color:red;
+    --text-color:#020102;
+    --bg-color:#fff;
+}
+
+section{
+    padding: 4px 0 2px;
+}
+
+img {
+    width: 100%;
+}
+
+body{
+    color:var(--text-color);
+}
+
+.container{
+    max-width: 1068px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 35px ;
+}
+
+#Menu-icon{
+    font-size: 24px;
+    cursor: pointer;
+    color: var(--text-color);
+    display: none; 
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.logo span {
+    color: var(--main-color);
+}
+
+.navbar {
+    display: flex;
+    column-gap: 20px;
+    text-transform: uppercase; /* texto en mayuscula */
+    font-weight: 500;
+}
+
+.navbar a:hover,
+.navbar .active {
+    color: var(--main-color); 
+    border-bottom: 3px solid var(--main-color);
+}
+
+#icon-busqueda {
+    font-size:24px;
+    cursor: pointer;
+    color: var(--bg-color);
+}
+
+.caja-busqueda{
+    position: absolute;
+    top: 110%;
+    right: 0;
+    left: 0;
+    background:var(--bg-color);
+    box-shadow: 2px 2px 10px rgb(15 54 55 /10%);
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    clip-path: circle(0% at 100% 0%);
+}
+
+.caja-busqueda.active{
+    clip-path: circle(144% at 100% 0%);
+    transition: 0.2s;
+}
+
+
+.caja-busqueda input{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
+}
+
+.inicio{
+    max-width: 1300px;
+    margin: auto;
+    width: 100%;
+    min-height: 640px;
+    display: flex;
+    align-items: center;
+    background: url(./fondoi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+}
+
+.inicio-text{
+    padding-left: 100px;
+    
+}
+
+.inicio-text h1{
+    font-size: 30px;
+}
+
+.inicio-text span{
+    color: var(--main-color);
+}
+
+.inicio-text p{
+    font-size: 25px;
+    font-weight: 300;
+    margin: 5px 0 5px;
+}
