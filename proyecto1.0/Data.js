@@ -6,7 +6,6 @@ var dataCarros = [
       modelo: 'March',
       año: '2022',  
       transmisión:'Manual',
-      kilometraje:'45.000 km',
       consumo:'15 km/l',
       características:'Aire acondicionado,Radio reproductor MP3, usb, Bluetooth y 4 parlantes',
       seguridad:'ABS,Airbags',
@@ -21,11 +20,10 @@ var dataCarros = [
       modelo:'Corolla',
       año: '2021',  
       transmisión:'Automática',
-      kilometraje:'30,000 km',
       consumo:'18 km/l',
       características:'Sistema de navegación, Asientos de cuero, Cámara de retroceso',
       seguridad:'Control de estabilidad, Airbags',
-      tarifa:120.000,
+      tarifa:'$120.000',
       kilometraje:'Iimitado'
     },
     { 
@@ -35,11 +33,10 @@ var dataCarros = [
         modelo: 'Fiesta', 
         año: 2020,
         transmisión:'Manual',
-        kilometraje:'40.000 km',
         consumo:'16 km/l',
-        características:'Sistema de entretenimiento SYNC, Asientos plegables, Bluetooth',
+        características:'Sistema entretenimiento,Asientos plegables,Bluetooth',
         seguridad:'Frenos ABS, Airbags laterales',
-        tarifa:95.000,
+        tarifa:'$95.000',
         kilometraje:'Iimitado',
         
     },
@@ -50,11 +47,10 @@ var dataCarros = [
         modelo: 'Civic', 
         año: 2023,
         transmisión:'Automática',
-        kilometraje:'25,000 km',
         consumo:'20 km/l',
         características:'Techo solar, Pantalla táctil, Control de crucero',
         seguridad:'Asistente de frenado, Cámara de visión trasera',
-        tarifa:115.000,
+        tarifa:'$115.000',
         kilometraje:'Iimitado',
     },
     { 
@@ -64,12 +60,11 @@ var dataCarros = [
         modelo: 'Spark', 
         año: 2021,
         transmisión:'Manual',
-        kilometraje:'35,000 km',
         consumo:'14 km/l',
-        caracteristicas:'Aire acondicionado, Conexión USB, Sistema de sonido básico',
+        características:'Aire acondicionado,x',
         seguridad:'Bolsas de aire frontales, Frenos ABS',
-        tarifa:85.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$85.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:6,
@@ -78,11 +73,10 @@ var dataCarros = [
         modelo: 'Golf', 
         año: 2022,
         transmisión:'Automática',
-        kilometraje:'28,000 km',
         consumo:'17 km/l',
         características:'Sistema de infoentretenimiento, Asientos deportivos, Conexión Bluetooth',
         seguridad:'Control de tracción, Airbags frontales y laterales',
-        tarifa:200.000,
+        tarifa:'$123.000',
         kilometraje:'Iimitado',
     },
     { 
@@ -92,11 +86,10 @@ var dataCarros = [
         modelo: 'Accent', 
         año:  2020,
         transmisión:'Manual',
-        kilometraje:'42,000 km',
         consumo:'16.5 km/l',
         características:'Pantalla táctil, Sistema de sonido premium, Conexión USB',
         seguridad:'Sistema de frenos asistidos, Bolsas de aire',
-        tarifa:200.000,
+        tarifa:'$380.000',
         kilometraje:'Iimitado',
     },
     { 
@@ -106,11 +99,10 @@ var dataCarros = [
         modelo: 'Rio', 
         año: 2023 ,
         transmisión:'Automática',
-        kilometraje:'20,000 km',
         consumo:'19 km/l',
         características:'Asientos calefactados, Navegación por satélite, Conexión Bluetooth',
         seguridad:'Asistente de mantenimiento de carril, Bolsas de aire laterales',
-        tarifa:200.000,
+        tarifa:'$126.000',
         kilometraje:'Iimitado',
     },
     { 
@@ -120,11 +112,10 @@ var dataCarros = [
         modelo: 'Impreza', 
         año: 2021 ,
         transmisión:'Manual',
-        kilometraje:'38,000 km',
         consumo:' 15.5 km/l',
         características:'Tracción en las cuatro ruedas, Sistema de audio Harman Kardon, Techo corredizo',
         seguridad:'Sistema de monitoreo de punto ciego, Control de estabilidad',
-        tarifa:200.000,
+        tarifa:'$200.000',
         kilometraje:'Iimitado',
     },
     { 
@@ -134,12 +125,11 @@ var dataCarros = [
         modelo: 'Mazda3', 
         año: 2022 ,
         transmisión:'Automática',
-        kilometraje:' 25,000 km',
         consumo:'18.5 km/l',
         características:' Sistema de sonido Bose, Pantalla táctil, Conexión USB',
         seguridad:'Frenos antibloqueo, Bolsas de aire laterales y de cortina',
-        tarifa:200.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$320.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:11,
@@ -148,11 +138,10 @@ var dataCarros = [
         modelo: 'A-Class', 
         año: 2020,
         transmisión:'Automática',
-        kilometraje:'30,000 km',
         consumo:'16 km/l',
         características:'Asientos de cuero, Sistema de navegación, Techo panorámico',
         seguridad:' Sistema de frenado de emergencia, Control de crucero adaptativo',
-        tarifa:200.000,
+        tarifa:'$290.000',
         kilometraje:'Iimitado',
     },
     { 
@@ -162,12 +151,11 @@ var dataCarros = [
         modelo: '3 Series', 
         año:  2023,
         transmisión:'Automática',
-        kilometraje:'22,000 km',
         consumo:'17.5 km/l',
         características:'Sistema de infoentretenimiento iDrive, Asientos deportivos, Conexión Bluetooth',
         seguridad:'Control de tracción, Bolsas de aire frontales y laterales',
-        tarifa:200.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$360.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:13,
@@ -176,11 +164,10 @@ var dataCarros = [
         modelo: ' A4', 
         año: 2021 ,
         transmisión:'Manual',
-        kilometraje:' 35,000 km',
         consumo:'16.8 km/l',
         características:'Sistema de sonido Bang & Olufsen, Pantalla táctil, Conexión USB',
         seguridad:' Asistente de cambio de carril, Frenos ABS',
-        tarifa:200.000,
+        tarifa:'$245.000',
         kilometraje:'Iimitado',
     },
     { 
@@ -190,11 +177,10 @@ var dataCarros = [
         modelo: ' XE', 
         año: 2022,
         transmisión:'Automática',
-        kilometraje:'28,000 km',
         consumo:'15.2 km/l',
         características:' Asientos eléctricos, Sistema de sonido Meridian, Conexión Bluetooth',
         seguridad:'Sistema de monitoreo de punto ciego, Bolsas de aire laterales',
-        tarifa:200.000,
+        tarifa:'$336.000',
         kilometraje:'Iimitado',
     },
     { 
@@ -204,11 +190,10 @@ var dataCarros = [
         modelo: 'Range Rover Evoque', 
         año:  2020,
         transmisión:'Automática',
-        kilometraje:'40,000 km',
         consumo:'14.5 km/l',
         características:'Asientos de piel, Sistema de navegación, Techo panorámico',
         seguridad:'Control de estabilidad, Bolsas de aire frontales y laterales',
-        tarifa:200.000,
+        tarifa:'$200.000',
         kilometraje:'Iimitado',
     },
     { 
@@ -218,11 +203,10 @@ var dataCarros = [
         modelo: 'S60', 
         año: 2023,
         transmisión:'Manual',
-        kilometraje:'25,000 km',
         consumo:'17.3 km/l',
         características:'Sistema de audio premium, Pantalla táctil, Conexión USB',
         seguridad:'Frenos antibloqueo, Bolsas de aire laterales',
-        tarifa:200.000,
+        tarifa:'$190.000',
         kilometraje:'Iimitado',
     },
     { 
@@ -232,11 +216,10 @@ var dataCarros = [
         modelo: 'Model 3', 
         año:  2021,
         transmisión:' Automática',
-        kilometraje:' 20,000 km',
         consumo:' 22 km/l',
         características:'Autopilot, Pantalla táctil de 15 pulgadas, Techo de vidrio panorámico',
         seguridad:'Sistema de conducción autónoma, Bolsas de aire frontales y laterales',
-        tarifa:200.000,
+        tarifa:'$270.000',
         kilometraje:'Iimitado',
     },
     { 
@@ -246,11 +229,10 @@ var dataCarros = [
         modelo: '500', 
         año:   2022,
         transmisión:' Manual',
-        kilometraje:'32,000 km',
         consumo:'14.8 km/l',
         características:'Techo corredizo, Sistema de sonido Beats, Conexión Bluetooth',
         seguridad:'Frenos ABS, Bolsas de aire frontales',
-        tarifa:200.000,
+        tarifa:'$145.000',
         kilometraje:'Iimitado',
     },
     { 
@@ -260,11 +242,10 @@ var dataCarros = [
         modelo: 'Giulia', 
         año:2020,
         transmisión:'Automática',
-        kilometraje:'37,000 km',
         consumo:'15.5 km/l',
         características:'Asientos deportivos, Sistema de infoentretenimiento, Conexión USB',
         seguridad:'Control de estabilidad, Bolsas de aire laterales',
-        tarifa:200.000,
+        tarifa:'$260.000',
         kilometraje:'Iimitado',
     },
     { 
@@ -274,11 +255,10 @@ var dataCarros = [
         modelo: 'Ghibli', 
         año:2023,
         transmisión:' Automática',
-        kilometraje:'18,000 km',
         consumo:'13.5 km/l',
         características:'Asientos de cuero, Sistema de sonido Bowers & Wilkins, Navegación por satélite',
         seguridad:'Sistema de frenado autónomo, Bolsas de aire frontales y laterales',
-        tarifa:200.000,
+        tarifa:'$150.000',
         kilometraje:'Iimitado',
     },
     { 
@@ -288,11 +268,10 @@ var dataCarros = [
         modelo: '911', 
         año: 2021,
         transmisión:'Manual',
-        kilometraje:'25,000 km',
         consumo:'12.5 km/l',
         características:'Asientos deportivos, Sistema de infoentretenimiento, Conexión Bluetooth',
         seguridad:'Control de tracción, Bolsas de aire frontales y laterales',
-        tarifa:200.000,
+        tarifa:'$200.000',
         kilometraje:'Iimitado',
     },
     { 
@@ -302,26 +281,24 @@ var dataCarros = [
         modelo: 'IS', 
         año: 2022,
         transmisión:'Automática',
-        kilometraje:'23,000 km',
         consumo:'16.5 km/l',
         características:'Asientos eléctricos, Sistema de navegación, Conexión USB',
         seguridad:'Asistente de cambio de carril, Bolsas de aire laterales',
-        tarifa:200.000,
+        tarifa:'$280.000',
         kilometraje:'Iimitado',
     },
     { 
         id:23,
         imagen: './img/23.jpg',
-        Marca: 'Infiniti',
-        Modelo: 'Q50', 
-        Año: 2020,
-        Transmisión:'Manual',
-        kilometraje:'30,000 km',
-        Consumo:'15 km/l',
-        Características:' Techo solar, Sistema de sonido Bose, Conexión Bluetooth',
-        Seguridad:'Control de estabilidad, Bolsas de aire frontales y laterales',
-        Tarifa:200.000,
-        Kilometraje:'Iimitado',
+        marca: 'Infiniti',
+        modelo: 'Q50', 
+        año: 2020,
+        transmisión:'Manual',
+        consumo:'15 km/l',
+        características:' Techo solar, Sistema de sonido Bose, Conexión Bluetooth',
+        seguridad:'Control de estabilidad, Bolsas de aire frontales y laterales',
+        tarifa:'$300.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:24,
@@ -330,11 +307,10 @@ var dataCarros = [
         modelo: 'Verano', 
         año:2023,
         transmisión:'Automática',
-        kilometraje:'20,000 km',
         consumo:'17 km/l',
         características:'Asientos de cuero, Sistema de infoentretenimiento, Conexión USB',
         seguridad:'Sistema de monitoreo de punto ciego, Bolsas de aire laterales',
-        tarifa:200.000,
+        tarifa:'$200.000',
         kilometraje:'Iimitado',
     },
     { 
@@ -344,12 +320,11 @@ var dataCarros = [
         modelo: 'Ghost', 
         año:2021,
         transmisión:'Automática',
-        kilometraje:'15,000 km',
         consumo:'10 km/l',
         características:'Asientos reclinables, Sistema de sonido premium, Techo de estrellas',
         seguridad:' Sistema de frenado autónomo, Bolsas de aire frontales y laterales',
-        tarifa:200.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$380.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:26,
@@ -358,12 +333,11 @@ var dataCarros = [
         modelo:'Tipo', 
         año:2022,
         transmisión:'Manual',
-        kilometraje:'28,000 km',
         consumo:'16 km/l',
         características:'Pantalla táctil, Conexión Bluetooth, Control de crucero',
         seguridad:'Frenos ABS, Airbags',
-        tarifa:250.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$250.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:27,
@@ -372,12 +346,11 @@ var dataCarros = [
         modelo:'208', 
         año:2021,
         transmisión:'Automática',
-        kilometraje:'25,000 km',
         consumo:'14.5 km/l',
         características:'Techo panorámico, Sistema de infoentretenimiento, Conexión USB',
         seguridad:'Control de estabilidad, Bolsas de aire laterales',
-        tarifa:190.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$190.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:28,
@@ -386,12 +359,11 @@ var dataCarros = [
         modelo:'Cooper', 
         año:2023,
         transmisión:'Manual',
-        kilometraje:'20,000 km',
         consumo:'15.8 km/l',
         características:'Asientos deportivos, Sistema de sonido Harman Kardon, Conexión Bluetooth',
         seguridad:'Sistema de frenado de emergencia, Bolsas de aire frontales y laterales',
-        tarifa:390.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$390.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:29,
@@ -400,12 +372,11 @@ var dataCarros = [
         modelo:'Terrain', 
         año:2020,
         transmisión:'Automática',
-        kilometraje:'35,000 km',
         consumo:' 13 km/l',
         características:'Asientos de cuero, Sistema de infoentretenimiento, Cámara de retroceso',
         seguridad:'Control de tracción, Airbags',
-        tarifa:380.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$380.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:30,
@@ -414,12 +385,11 @@ var dataCarros = [
         modelo:'1500', 
         año:2022,
         transmisión:'Automática',
-        kilometraje:'18,000 km',
         consumo:'11 km/l',
         características:'Sistema de navegación, Asientos eléctricos, Conexión USB',
         seguridad:'Asistente de frenado, Bolsas de aire laterales',
-        tarifa:250.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$250.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:31,
@@ -428,12 +398,11 @@ var dataCarros = [
         modelo:'Swift', 
         año:2021,
         transmisión:'Manual',
-        kilometraje:'30,000 km',
         consumo:'17.5 km/l',
         características:'Sistema de sonido premium, Pantalla táctil, Conexión Bluetooth',
         seguridad:' Control de estabilidad, Bolsas de aire frontales y laterales',
-        tarifa:150.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$150.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:32,
@@ -442,12 +411,11 @@ var dataCarros = [
         modelo:' ILX', 
         año:2023,
         transmisión:'Automática',
-        kilometraje:'22,000 km',
         consumo:' 16.2 km/l',
         características:'Asientos de cuero, Sistema de infoentretenimiento, Navegación por satélite',
         seguridad:'Asistente de cambio de carril, Bolsas de aire laterales',
-        tarifa:280.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$280.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:33,
@@ -456,12 +424,11 @@ var dataCarros = [
         modelo:'Outlander', 
         año:2020,
         transmisión:' Automática',
-        kilometraje:'40,000 km',
         consumo:'14.3 km/l',
         características:'Tercera fila de asientos, Sistema de sonido Rockford Fosgate, Cámara de retroceso',
         seguridad:'Control de tracción, Airbags',
-        tarifa:300.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$300.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:34,
@@ -470,12 +437,11 @@ var dataCarros = [
         modelo:'F-Pace', 
         año:2022,
         transmisión:'Automática',
-        kilometraje:' 25,000 km',
         consumo:'12.8 km/l',
         características:'Asientos eléctricos, Sistema de sonido Meridian, Techo panorámico',
         seguridad:'Sistema de frenado autónomo, Bolsas de aire laterales',
-        tarifa:380.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$380.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:35,
@@ -484,12 +450,11 @@ var dataCarros = [
         modelo:'G80', 
         año:2021,
         transmisión:'Manual',
-        kilometraje:'28,000 km',
         consumo:'16.5 km/l',
         características:'Pantalla táctil, Asientos de cuero, Conexión USB',
         seguridad:'Control de estabilidad, Bolsas de aire frontales y laterales',
-        tarifa:270.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$270.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:36,
@@ -498,12 +463,11 @@ var dataCarros = [
         modelo:'Pacifica', 
         año:2023,
         transmisión:'Automática',
-        kilometraje:'18,000 km',
         consumo:'10.5 km/l',
         características:'Pantalla para entretenimiento trasero, Asientos plegables, Conexión Bluetooth',
         seguridad:'Frenos ABS, Bolsas de aire laterales',
-        tarifa:150.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$150.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:37,
@@ -512,12 +476,11 @@ var dataCarros = [
         modelo:'Forester', 
         año: 2020,
         transmisión:'Manual',
-        kilometraje:'32,000 km',
         consumo:' 15.2 km/l',
         características:'Sistema de tracción en las cuatro ruedas, Techo corredizo, Conexión USB',
         seguridad:' Control de tracción, Bolsas de aire laterales',
-        tarifa:250.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$250.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:38,
@@ -526,12 +489,11 @@ var dataCarros = [
         modelo:'XT5', 
         año: 2022,
         transmisión:'Automática',
-        kilometraje:'23,000 km',
         consumo:'13.7 km/l',
         características:'Asientos de cuero, Sistema de infoentretenimiento, Cámara de retroceso',
         seguridad:'Sistema de frenado de emergencia, Bolsas de aire frontales y laterales',
-        tarifa:350.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$350.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:39,
@@ -540,12 +502,11 @@ var dataCarros = [
         modelo:'Nautilus', 
         año: 2021,
         transmisión:'Manual',
-        kilometraje:'28,000 km',
         consumo:' 14.8 km/l',
         características:'Sistema de sonido Revel, Asientos eléctricos, Conexión Bluetooth',
         seguridad:'Asistente de cambio de carril, Bolsas de aire laterales',
-        tarifa:185.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$185.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:40,
@@ -554,12 +515,11 @@ var dataCarros = [
         modelo:'Cherokee', 
         año:2023,
         transmisión:'Automática',
-        kilometraje:'20,000 km',
         consumo:'12.5 km/l',
         características:'Sistema de tracción en las cuatro ruedas, Pantalla táctil, Conexión USB',
         seguridad:'Control de estabilidad, Bolsas de aire laterales',
-        tarifa:250.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$250.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:41,
@@ -568,12 +528,11 @@ var dataCarros = [
         modelo:'Encore', 
         año:2020,
         transmisión:'Manual',
-        kilometraje:'35,000 km',
         consumo:'16.5 km/l',
         características:'Sistema de infoentretenimiento, Asientos plegables, Conexión Bluetooth',
         seguridad:'Frenos ABS, Bolsas de aire frontales y laterales',
-        tarifa:145.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$145.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:42,
@@ -582,12 +541,11 @@ var dataCarros = [
         modelo:'Tiguan', 
         año:2022,
         transmisión:'Automática',
-        kilometraje:' 25,000 km',
         consumo:' 15.5 km/l',
         características:' Techo panorámico, Sistema de sonido premium, Conexión USB',
         seguridad:'Control de tracción, Bolsas de aire laterales',
-        tarifa:248.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$248.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:43,
@@ -596,12 +554,11 @@ var dataCarros = [
         modelo:'Discovery', 
         año:2021,
         transmisión:'Manual',
-        kilometraje:'30,000 km',
         consumo:'13.8 km/l',
         características:'Tercera fila de asientos, Sistema de navegación, Cámara de retroceso',
         seguridad:'Control de estabilidad, Bolsas de aire frontales y laterales',
-        tarifa:127.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$127.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:44,
@@ -610,12 +567,11 @@ var dataCarros = [
         modelo:'XC60', 
         año:2023,
         transmisión:'Automática',
-        kilometraje:'22,000 km',
         consumo:'16.7 km/l',
         características:' Asientos de cuero, Pantalla táctil, Conexión Bluetooth',
         seguridad:'Asistente de frenado, Bolsas de aire laterales',
-        tarifa:347.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$347.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:45,
@@ -624,12 +580,11 @@ var dataCarros = [
         modelo:'Crosstrek', 
         año:2020,
         transmisión:'Manual',
-        kilometraje:'28,000 km',
         consumo:'14.5 km/l',
         características:'Sistema de tracción en las cuatro ruedas, Techo corredizo, Conexión USB',
         seguridad:'Control de tracción, Bolsas de aire laterales',
-        tarifa:168.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$168.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:46,
@@ -638,12 +593,11 @@ var dataCarros = [
         modelo:'Kona', 
         año:2022,
         transmisión:'Automática',
-        kilometraje:'25,000 km',
         consumo:'17.2 km/l',
         características:'Sistema de infoentretenimiento, Asientos plegables, Conexión Bluetooth',
         seguridad:'Frenos ABS, Bolsas de aire frontales y laterales',
-        tarifa:256.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$256.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:47,
@@ -652,12 +606,11 @@ var dataCarros = [
         modelo:'Escape', 
         año:2021,
         transmisión:'Manual',
-        kilometraje:'30,000 km',
         consumo:'12.5 km/l',
         características:'Sistema de navegación, Asientos eléctricos, Conexión USB',
         seguridad:'Control de estabilidad, Bolsas de aire laterales',
-        tarifa:387.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$387.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:48,
@@ -666,12 +619,11 @@ var dataCarros = [
         modelo:'Q5', 
         año:2023,
         transmisión:'Automática',
-        kilometraje:'22,000 km',
         consumo:'15.3 km/l',
         características:'Asientos de cuero, Sistema de sonido Bang & Olufsen, Conexión Bluetooth',
         seguridad:'Asistente de cambio de carril, Bolsas de aire laterales',
-        tarifa:246.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$246.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:49,
@@ -680,12 +632,11 @@ var dataCarros = [
         modelo:'Rogue', 
         año:2020,
         transmisión:'Manual',
-        kilometraje:'35,000 km',
         consumo:'14.2 km/l',
         características:'Sistema de infoentretenimiento, Techo panorámico, Cámara de retroceso',
         seguridad:'Frenos ABS, Bolsas de aire frontales y laterales',
-        tarifa:189.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$189.000',
+        kilometraje:'Iimitado',
     },
     { 
         id:50,
@@ -694,69 +645,151 @@ var dataCarros = [
         modelo:'RAV4', 
         año:2022,
         transmisión:'Automática',
-        kilometraje:'25,000 km',
         consumo:'16.5 km/l',
         características:'Pantalla táctil, Sistema de sonido JBL, Conexión USB',
         seguridad:'Control de tracción, Bolsas de aire laterales',
-        tarifa:382.000,
-        Kilometraje:'Iimitado',
+        tarifa:'$382.000',
+        kilometraje:'Ilimitado',
     },
   ];
+// Número de elementos por página
+var elementosPorPagina = 10;
 
- // Número de elementos por página
- var elementosPorPagina = 10;
+// Función para mostrar una página específica
+function mostrarPagina(pagina) {
+  var inicio = (pagina - 1) * elementosPorPagina;
+  var fin = inicio + elementosPorPagina;
+  var carrosPagina = dataCarros.slice(inicio, fin);
 
- // Función para mostrar una página específica
- function mostrarPagina(pagina) {
-   var inicio = (pagina - 1) * elementosPorPagina;
-   var fin = inicio + elementosPorPagina;
-   var carrosPagina = dataCarros.slice(inicio, fin);
-
-   // Limpiar el contenedor antes de agregar nuevos elementos
-   contenedorCarros.innerHTML = '';
+  // Limpiar el contenedor antes de agregar nuevos elementos
+  contenedorCarros.innerHTML = '';
 
   // Recorrer los carros de la página actual y crear las cajas
-carrosPagina.forEach(function (carro) {
+  carrosPagina.forEach(function (carro) {
     var cajaCarro = document.createElement('div');
     cajaCarro.classList.add('box');
-  
+
     var imagen = document.createElement('img');
     imagen.src = carro.imagen;
     cajaCarro.appendChild(imagen);
-  
-    // Agregar otras propiedades del carro a la caja
-    cajaCarro.innerHTML += `<h3>Marca: ${carro.marca}</h3>`;
-    cajaCarro.innerHTML += `<h2>Modelo: ${carro.modelo}</h2>`;
-    cajaCarro.innerHTML += `<p>Año: ${carro.año}</p>`;
-    cajaCarro.innerHTML += `<p>Tarifa: ${carro.tarifa}</p>`;
-    cajaCarro.innerHTML += `<a href="caracteristicas.html" class="btn">Ver Oferta</a>`;
-  
-    // Agregar la caja al contenedor principal
+
+    // Crear elementos para la información del carro
+    var marcaElement = document.createElement('h3');
+    marcaElement.textContent = 'Marca: ' + carro.marca;
+    cajaCarro.appendChild(marcaElement);
+
+    var modeloElement = document.createElement('h2');
+    modeloElement.textContent = 'Modelo: ' + carro.modelo;
+    cajaCarro.appendChild(modeloElement);
+
+    var añoElement = document.createElement('p');
+    añoElement.textContent = 'Año: ' + carro.año;
+    cajaCarro.appendChild(añoElement);
+
+    var tarifaElement = document.createElement('p');
+    tarifaElement.textContent = 'Tarifa: ' + carro.tarifa;
+    cajaCarro.appendChild(tarifaElement);
+
+    // Agregar el botón "Ver Oferta"
+    var verOfertaBtn = document.createElement('a');
+    verOfertaBtn.href = '#';
+    verOfertaBtn.className = 'btn';
+    verOfertaBtn.textContent = 'Ver Oferta';
+    verOfertaBtn.addEventListener('click', function (event) {
+        event.preventDefault();
+        mostrarPopup(carro);
+      });
+
+    cajaCarro.appendChild(verOfertaBtn);
+
+    // Agrega la caja al contenedor principal
     contenedorCarros.appendChild(cajaCarro);
   });
- }
+}
 
- // Función para generar la paginación
- function generarPaginacion() {
-   var totalPaginas = Math.ceil(dataCarros.length / elementosPorPagina);
-   var paginacion = document.getElementById('paginacion');
+// Función para mostrar la ventana emergente
+function mostrarPopup(carro) {
+    var popup = document.createElement('div');
+    popup.classList.add('popup');
+  
+    // Crear la tabla dentro del popup
+  var tablaPopup = document.createElement('table');
+  tablaPopup.classList.add('popup-table');
+  tablaPopup.style.width = '100%';
+  
+    // Agregar una fila para la imagen del carro
+  var filaImagen = document.createElement('tr');
+  var imagenCelda = document.createElement('td');
+  var imagen = document.createElement('img');
+  imagen.src = carro.imagen; // Asegúrate de tener la propiedad 'imagen' en tu objeto carro
+  imagenCelda.appendChild(imagen);
+  filaImagen.appendChild(imagenCelda);
+  tablaPopup.appendChild(filaImagen);
+  
+    // Crear filas y celdas para la información del carro
+    var detallesCarro = [
+      { label: 'Marca', value: carro.marca },
+      { label: 'Modelo', value: carro.modelo },
+      { label: 'Año', value: carro.año },
+      { label: 'Transmisión', value: carro.transmisión },
+      { label: 'Consumo', value: carro.consumo },
+      { label: 'Características', value: carro.características },
+      { label: 'Seguridad', value: carro.seguridad },
+      { label: 'Tarifa', value: carro.tarifa },
+      { label: 'Kilometraje', value: carro.kilometraje }
+    ];
+  
+    detallesCarro.forEach(function (detalle) {
+      var fila = document.createElement('tr');
+  
+      var labelCelda = document.createElement('td');
+      labelCelda.textContent = detalle.label;
+      fila.appendChild(labelCelda);
+  
+      var valueCelda = document.createElement('td');
+      valueCelda.textContent = detalle.value;
+      fila.appendChild(valueCelda);
+  
+      tablaPopup.appendChild(fila);
+    });
+  
+    // Agregar la tabla al popup
+    popup.appendChild(tablaPopup);
+  
+    // Agregar el popup al body
+    document.body.appendChild(popup);
+    // Agregar un botón de cierre al popup
+  var cerrarBtn = document.createElement('button');
+  cerrarBtn.textContent = 'Cerrar';
+  cerrarBtn.addEventListener('click', function () {
+    document.body.removeChild(popup);
+  });
 
-   // Limpiar la paginación antes de generarla de nuevo
-   paginacion.innerHTML = '';
+  popup.appendChild(cerrarBtn);
+}
+  
 
-   // Crear elementos de la paginación
-   for (var i = 1; i <= totalPaginas; i++) {
-     var paginaItem = document.createElement('li');
-     paginaItem.textContent = i;
-     paginaItem.addEventListener('click', function() {
-       mostrarPagina(parseInt(this.textContent));
-     });
-     paginacion.appendChild(paginaItem);
-   }
- }
+// Función para generar la paginación
+function generarPaginacion() {
+  var totalPaginas = Math.ceil(dataCarros.length / elementosPorPagina);
+  var paginacion = document.getElementById('paginacion');
 
- // Mostrar la primera página por defecto
- mostrarPagina(1);
+  // Limpiar la paginación antes de generarla de nuevo
+  paginacion.innerHTML = '';
 
- // Generar la paginación
- generarPaginacion();
+  // Crear elementos de la paginación
+  for (var i = 1; i <= totalPaginas; i++) {
+    var paginaItem = document.createElement('li');
+    paginaItem.textContent = i;
+    paginaItem.addEventListener('click', function () {
+      mostrarPagina(parseInt(this.textContent));
+    });
+    paginacion.appendChild(paginaItem);
+  }
+}
+
+// Mostrar la primera página por defecto
+mostrarPagina(1);
+
+// Generar la paginación
+generarPaginacion();

@@ -4,21 +4,19 @@ var users = [
     { email: 'usuario3@example.com', password: 'Abcd1234' }
 ];
 
-// Función que se llama al hacer clic en el botón de iniciar sesión
+// logica botón de iniciar sesión
 function login() {
     var username = document.getElementById('username').value;
     var password = document.getElementById('password').value;
 
-     // Validar que se ingrese información en ambos campos
-     if (!username || !password) {
-        alert('Por favor, complete ambos campos.');
+    if (!username || !password) {
+        displayError('Por favor, complete ambos campos.');
         return;
     }
 
-
-    // Validar la contraseña antes de verificar al usuario
+    // Valida la contraseña antes de verificar al usuario
     if (validatePassword(password)) {
-        // Simulación de autenticación con una promesa (puedes personalizar según tus necesidades)
+        // autenticación con una promesa 
         authenticate(username, password)
             .then(function(isValidUser) {
                 if (isValidUser) {
@@ -31,26 +29,26 @@ function login() {
                 console.error('Error en la autenticación:', error);
             });
     } else {
-        // Mostrar alerta si la contraseña no cumple con los requisitos
+        // alerta si la contraseña no cumple con los requisitos
         alert('La contraseña no cumple con los requisitos. Debe tener al menos 8 caracteres, una minúscula, una mayúscula y al menos 2 números.');
     }
 }
 
-// Función que se llama al hacer clic en el botón de limpiar campos
+// botón de limpiar campos
 function clearFields() {
-    // Limpiar los valores de los campos de entrada
+    // Limpia campos de entrada
     document.getElementById('username').value = '';
     document.getElementById('password').value = '';
 }
 
 function authenticate(username, password) {
     return new Promise(function(resolve, reject) {
-        // Lógica de autenticación (simulación)
+        // autenticación 
         var isValidUser = users.some(function(user) {
             return user.email === username && user.password === password;
         });
 
-        // Simular una pequeña demora antes de resolver la promesa
+        // promesa de validacion usuario 
         setTimeout(function() {
             resolve(isValidUser);
         }, 2000);
@@ -69,4 +67,16 @@ function validatePassword(password) {
         uppercaseRegex.test(password) &&
         (password.match(digitRegex) || []).length >= 2
     );
+}
+function displayError(message) {
+    // Muestra un mensaje de error en el formulario
+    var errorElement = document.createElement('p');
+    errorElement.style.color = 'red';
+    errorElement.textContent = message;
+    document.getElementById('loginForm').appendChild(errorElement);
+
+    // Elimina el mensaje después de 3 segundos
+    setTimeout(function () {
+        errorElement.remove();
+    }, 3000);
 }

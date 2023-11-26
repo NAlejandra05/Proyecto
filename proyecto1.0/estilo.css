@@ -1,4 +1,4 @@
-/* enlace letra google fonts */
+/*enlace letra google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 *{
@@ -190,32 +190,11 @@
 
  .Services-container {
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(600px, 600px));
+   grid-template-columns: repeat(auto-fit, minmax(800px, 800px));
    gap: 1rem;
    margin-top: 2rem;
    justify-content: end;
 }
-
- .filtro {
-   width: 95%;
-   margin: 0 auto;
-}
-
- .buscador-container {
-   margin: 1rem 0;
-}
-
- .buscador-container input {
-   background-color: transparent;
-   width: 40%;
-   border-bottom: 2px solid #110f29;
-   padding: 1rem 0.3rem;
-}
-
- .buscador-container input:focus{
-   border-bottom-color: magenta;
-}
-
 /* Estilo  de la caja */
 .box {
    border: 1px solid #ddd; /* Agrega un borde sólido */
@@ -253,3 +232,44 @@
    cursor: pointer; /* Establecer el cursor como puntero */
    
  }
+/* Estilos para el popup */
+.popup {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background: #fff;
+   padding: 20px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ }
+ 
+ .popup-table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-bottom: 10px;
+ }
+ 
+ .popup th, .popup td {
+   border: 1px solid #ddd;
+   padding: 8px;
+   text-align: left;
+ }
+ 
+ /* Estilos para la imagen dentro del popup */
+ .popup img {
+   width: 200px; /* Ajusta el ancho de la imagen según tus necesidades */
+   height: auto; /* Mantiene la proporción original de la imagen */
+   display: block;
+   margin: 0 auto; /* Centra la imagen horizontal y verticalmente */
+   margin-bottom: 10px; /* Espaciado inferior para separar la imagen del resto de la tabla */
+ }
+ footer {
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+   padding: 10px;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+}
+ 
