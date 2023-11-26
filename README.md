@@ -18,10 +18,10 @@ Este proyecto tiene como objetivo ofrecer una aplicacion web para el alquiler de
 ## Uso
 
 1.Abre `login.html` en tu navegador.
-3. Inicia sesión con correo electrónico y contraseña (autorizados).
-4. Busca vehículos según tus preferencias.
-5. Explora la lista de vehículos disponibles y visualiza detalles.
-6. ¡Disfruta de la aplicación!
+2. Inicia sesión con correo electrónico y contraseña (autorizados).
+3. Busca vehículos según tus preferencias.
+4. Explora la lista de vehículos disponibles y visualiza detalles.
+5. ¡Disfruta de la aplicación!
 
 ## Autor
 Natalia Alejandra Baquero Unas
