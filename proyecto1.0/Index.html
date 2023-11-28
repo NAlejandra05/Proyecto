@@ -5,33 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alquiler de vehiculos</title>
     <link rel="stylesheet" href="estilo.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> <!--iconos-->
 </head>
 <body>
     <header class="header">
         <nav>
-            <a href="#" class="logo"><img src="./img/logo.png" alt="logo"></a>
+            <a href="#" class="logo"><img src="./img/logo.png" alt="logo "></a>
         </nav>
     </header>
     <main>
+
         <section class="home" id="home">
-            <div class="text">
+            <article class="text">
                 <h1><span>Buscas </span> alquilar un auto  <br> </h1>
                 <p>"¡Viaja a tu propio ritmo con nuestra flota de posibilidades!".</p>
-            </div>
+            </article>
+
             <div class="form-container">
                 <form action="" class="form">
                     <div class="form__input-box">
-                        <span class="form__label">Ubicacion</span>
+                        <label class="form__label">Ubicacion</label>
                         <input type="search" name="" id="" placeholder="Buscar lugares" class="form__input">
                     </div>
                     <div class="input-box">
-                        <span>Fecha recibido</span>
+                        <label>Fecha recibido</label>
                         <input type="date" name="" id="">
                     </div>
     
                     <div class="input-box">
-                        <span>fecha de regreso</span>
+                        <label>Fecha de regreso</label>
                         <input type="date" name="" id="">
                     </div>
                     <input type="submit" name="" id="" class="btn">
@@ -41,8 +42,8 @@
         </section>
         
         <section class="services" id="services">
-            <h1> Carros </h1>
-            <div class="Services-container" id="contenedorCarros"></div>
+            <h2> Carros  disponibles </h2>
+            <div class="services-container" id="contenedorCarros"></div>
             <!-- Paginación -->
             <ul class="paginacion" id="paginacion"></ul>
           </section> 

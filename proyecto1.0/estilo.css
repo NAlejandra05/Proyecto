@@ -53,72 +53,11 @@
    width: 400px;
 }
 
-.navbar {
-   display: flex;
-}
-.navbar__item {
-   position: relative;
-   margin-right: 10px; /* Un margen derecho de 10px, solo como ejemplo */
-   /* Otros estilos según sea necesario */
-}
-
-.navbar__link {
-   font-size: 20px;
-   padding: 10px 80px;
-   color: var(--text-color);
-   font-weight: 500;
-}
-.navbar__link::after {
-   content: '';
-   width: 0%;
-   height: 3px;
-   background: var(--gradient);
-   position: absolute;
-   bottom: -4px;
-   left: 0;
-   transition: 0.5s;
-}
-.navbar__link:hover::after {
-   width: 100%;
-}
-
- .navbar li {
-   position: relative; 
-}
-
- .navbar a {
-    font-size: 20px;
-    padding: 10px 80px;
-    color: var(--text-color);
-    font-weight: 500;
- }
- 
- .navbar a::after {
-    content: '';
-    width: 0%;
-    height: 3px;
-    background: var(--gradient);
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-    transition: 0.5s;
- }
-
- .navbar a:hover:after {
-    width: 100%;
- }
-
  .header-btn a {
     padding: 10px 20px;
     color: var(--text-color);
     font-weight: 500;
  }
- #menu-icon {
-   font-size: 24px;
-   cursor: pointer;
-   z-index: 10001;
-   display: none;
-}
 .home {
     width: 100%;
     min-height: 100vh;
@@ -188,13 +127,23 @@
    background: var(--main-color);
  }
 
- .Services-container {
+ .services-container {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(800px, 800px));
    gap: 1rem;
    margin-top: 2rem;
    justify-content: end;
+   
 }
+.services h2 {
+   font-size: 2rem; /* Tamaño de fuente */
+   color: var(--main-color); /* Color del texto */
+   margin-bottom: 1rem; /* Espaciado inferior */
+   text-align: center; /* Alineación del texto */
+   /* Otros estilos según sea necesario */
+}
+
+
 /* Estilo  de la caja */
 .box {
    border: 1px solid #ddd; /* Agrega un borde sólido */

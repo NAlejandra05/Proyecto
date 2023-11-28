@@ -652,11 +652,12 @@ var dataCarros = [
         kilometraje:'Ilimitado',
     },
   ];
-// Número de elementos por página
+
+  // Número de elementos por página
 var elementosPorPagina = 10;
 
-// Función para mostrar una página específica
-function mostrarPagina(pagina) {
+ // Funcion para mostrar una pagina específica
+ function mostrarPagina(pagina) {
   var inicio = (pagina - 1) * elementosPorPagina;
   var fin = inicio + elementosPorPagina;
   var carrosPagina = dataCarros.slice(inicio, fin);
@@ -675,15 +676,15 @@ function mostrarPagina(pagina) {
 
     // Crear elementos para la información del carro
     var marcaElement = document.createElement('h3');
-    marcaElement.textContent = 'Marca: ' + carro.marca;
+    marcaElement.textContent = 'Marca :' + carro.marca;
     cajaCarro.appendChild(marcaElement);
 
-    var modeloElement = document.createElement('h2');
-    modeloElement.textContent = 'Modelo: ' + carro.modelo;
+    var modeloElement = document.createElement('h3');
+    modeloElement.textContent = 'Modelo :' + carro.modelo;
     cajaCarro.appendChild(modeloElement);
 
     var añoElement = document.createElement('p');
-    añoElement.textContent = 'Año: ' + carro.año;
+    añoElement.textContent = 'Año :' + carro.año;
     cajaCarro.appendChild(añoElement);
 
     var tarifaElement = document.createElement('p');
@@ -721,7 +722,7 @@ function mostrarPopup(carro) {
   var filaImagen = document.createElement('tr');
   var imagenCelda = document.createElement('td');
   var imagen = document.createElement('img');
-  imagen.src = carro.imagen; // Asegúrate de tener la propiedad 'imagen' en tu objeto carro
+  imagen.src = carro.imagen; 
   imagenCelda.appendChild(imagen);
   filaImagen.appendChild(imagenCelda);
   tablaPopup.appendChild(filaImagen);
@@ -758,6 +759,7 @@ function mostrarPopup(carro) {
   
     // Agregar el popup al body
     document.body.appendChild(popup);
+    
     // Agregar un botón de cierre al popup
   var cerrarBtn = document.createElement('button');
   cerrarBtn.textContent = 'Cerrar';
