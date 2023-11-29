@@ -1,7 +1,7 @@
 ### Proyecto Final Rueda Libre
 Este proyecto tiene como objetivo ofrecer una aplicacion web para el alquiler de vehiculos.la aplicacion maneja varias tareas, incluida la autenticacion de usuarios y la visualizacion detallada de los vehiculos disponibles 
 ## Funcionalidad
-- Iniciar Sesión:Los usuarios pueden iniciar sesión con su correo electrónico y contraseña.
+- **Iniciar Sesión:** Los usuarios pueden iniciar sesión con su correo electrónico y contraseña.
 - **Visualización de Vehículos:** Muestra una lista de vehículos disponibles con detalles como marca, modelo, año y tarifa.
 - **Detalles del Vehículo:** Permite ver detalles específicos de un vehículo, incluyendo características, seguridad, kilometraje, etc.
   
