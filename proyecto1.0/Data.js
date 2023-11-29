@@ -674,7 +674,7 @@ var elementosPorPagina = 10;
     imagen.src = carro.imagen;
     cajaCarro.appendChild(imagen);
 
-    // Crear elementos para la información del carro
+    // información del carro
     var marcaElement = document.createElement('h3');
     marcaElement.textContent = 'Marca :' + carro.marca;
     cajaCarro.appendChild(marcaElement);
@@ -691,7 +691,7 @@ var elementosPorPagina = 10;
     tarifaElement.textContent = 'Tarifa: ' + carro.tarifa;
     cajaCarro.appendChild(tarifaElement);
 
-    // Agregar el botón "Ver Oferta"
+    //  botón "Ver Oferta"
     var verOfertaBtn = document.createElement('a');
     verOfertaBtn.href = '#';
     verOfertaBtn.className = 'btn';
@@ -713,12 +713,12 @@ function mostrarPopup(carro) {
     var popup = document.createElement('div');
     popup.classList.add('popup');
   
-    // Crear la tabla dentro del popup
+    //  tabla dentro del popup
   var tablaPopup = document.createElement('table');
   tablaPopup.classList.add('popup-table');
   tablaPopup.style.width = '100%';
   
-    // Agregar una fila para la imagen del carro
+    // imagen del carro
   var filaImagen = document.createElement('tr');
   var imagenCelda = document.createElement('td');
   var imagen = document.createElement('img');
@@ -727,7 +727,7 @@ function mostrarPopup(carro) {
   filaImagen.appendChild(imagenCelda);
   tablaPopup.appendChild(filaImagen);
   
-    // Crear filas y celdas para la información del carro
+    //  información del carro
     var detallesCarro = [
       { label: 'Marca', value: carro.marca },
       { label: 'Modelo', value: carro.modelo },
@@ -757,10 +757,10 @@ function mostrarPopup(carro) {
     // Agregar la tabla al popup
     popup.appendChild(tablaPopup);
   
-    // Agregar el popup al body
+    // Agregar el popup 
     document.body.appendChild(popup);
     
-    // Agregar un botón de cierre al popup
+    // botón de cierre al popup
   var cerrarBtn = document.createElement('button');
   cerrarBtn.textContent = 'Cerrar';
   cerrarBtn.addEventListener('click', function () {
@@ -771,7 +771,7 @@ function mostrarPopup(carro) {
 }
   
 
-// Función para generar la paginación
+// generar la paginación
 function generarPaginacion() {
   var totalPaginas = Math.ceil(dataCarros.length / elementosPorPagina);
   var paginacion = document.getElementById('paginacion');
