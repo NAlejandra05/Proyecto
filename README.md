@@ -8,16 +8,16 @@ Este proyecto tiene como objetivo ofrecer una aplicacion web para el alquiler de
   ## Estructura del Proyecto
   
 - login.html: Login de la aplicación.
-- `login.css`: Estilos para la página de inicio de sesión.
-- `login.js`: Lógica para la página de inicio de sesión.
-- `index.html`: Página principal de la aplicación.
-- `estilo.css`: Estilos generales de la pagina principal.
-- `Data.js`: Datos de los vehículos y logica de la pagina principal.
-- `img/`: Carpeta que contiene imágenes utilizadas en la aplicación.
+- login.css: Estilos para la página de inicio de sesión.
+- login.js: Lógica para la página de inicio de sesión.
+- index.html: Página principal de la aplicación.
+- estilo.css: Estilos generales de la pagina principal.
+- Data.js: Datos de los vehículos y logica de la pagina principal.
+- img/: Carpeta que contiene imágenes utilizadas en la aplicación.
 - 
 ## Uso
 
-1.Abre `login.html` en tu navegador.
+1. Abre login.html en tu navegador.
 2. Inicia sesión con correo electrónico y contraseña (autorizados).
 3. Busca vehículos según tus preferencias.
 4. Explora la lista de vehículos disponibles y visualiza detalles.
