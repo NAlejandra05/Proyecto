@@ -136,52 +136,40 @@
    
 }
 .services h2 {
-   font-size: 2rem; /* Tamaño de fuente */
-   color: var(--main-color); /* Color del texto */
-   margin-bottom: 1rem; /* Espaciado inferior */
-   text-align: center; /* Alineación del texto */
-   /* Otros estilos según sea necesario */
+   font-size: 2rem;
+   color: var(--main-color); 
+   margin-bottom: 1rem;
+   text-align: center; 
 }
-
-
-/* Estilo  de la caja */
 .box {
-   border: 1px solid #ddd; /* Agrega un borde sólido */
-   padding: 10px; /* Añade el relleno interno */
-   margin: 10px;  /* Añade margen */
-   border-radius: 1rem; /* Agrega borde para la esquina sea redonda */
-   display: flex; /* Utilizar un diseño de caja flexible */
-   flex-direction: column; /* Organiza en columnas */
-   align-items: center; /* Centra horizontalmente */
-   text-align: center; /* Centra el texto horizontalmente */
+   border: 1px solid #ddd; 
+   padding: 10px; 
+   margin: 10px;  
+   border-radius: 1rem; 
+   display: flex; 
+   flex-direction: column; 
+   align-items: center; 
+   text-align: center; 
  }
-
-/* Estilo para las imágenes dentro de la caja */
  .box img {
-   width: 100%; /* Establecer el ancho de la imagen  */
-   height: 100%; /* Establecer la altura de la imagen */
-   border-radius: 1rem; /* Agrega  borde para esquinas redondeadas */
-   padding: 8px; /* Añade relleno alrededor de la imagen */
-   object-fit: cover;  /*ajusta la imagen a la caja */
-   object-position: center; /* Centra la imagen  */
-   margin-bottom: 10px; /* Espacio entre la imagen y la información */
+   width: 100%; 
+   height: 100%; 
+   border-radius: 1rem; 
+   padding: 8px; 
+   object-fit: cover;
+   object-position: center;
+   margin-bottom: 10px;
  }
-
- /* Estilo para la paginación */
  .paginacion {
-   display: flex; /* Muestra los elementos de la lista en línea */
-   list-style: none; /* Eliminar los marcadores de lista */
-   padding: 0; /* Eliminar el relleno de la lista */ 
-   justify-content: center; /* Centrar la paginación horizontalmente */
+   display: flex;
+   list-style: none; 
+   padding: 0;
+   justify-content: center;
  }
-
- /* Estilo para los elementos de la lista de paginación */
  .paginacion li {
-   margin: 0 5px; /*Añade la margen para separar cada elemento de paginación */
-   cursor: pointer; /* Establecer el cursor como puntero */
-   
+   margin: 0 5px; 
+   cursor: pointer; 
  }
-/* Estilos para el popup */
 .popup {
    position: fixed;
    top: 50%;
@@ -203,14 +191,13 @@
    padding: 8px;
    text-align: left;
  }
- 
- /* Estilos para la imagen dentro del popup */
+
  .popup img {
-   width: 200px; /* Ajusta el ancho de la imagen según tus necesidades */
-   height: auto; /* Mantiene la proporción original de la imagen */
+   width: 200px;
+   height: auto;
    display: block;
-   margin: 0 auto; /* Centra la imagen horizontal y verticalmente */
-   margin-bottom: 10px; /* Espaciado inferior para separar la imagen del resto de la tabla */
+   margin: 0 auto;
+   margin-bottom: 10px; 
  }
  footer {
    background-color: #333;
