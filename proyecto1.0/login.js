@@ -75,8 +75,8 @@ function displayError(message) {
     errorElement.textContent = message;
     document.getElementById('loginForm').appendChild(errorElement);
 
-    // Elimina el mensaje después de 3 segundos
+    // Elimina el mensaje después de 1 segundos
     setTimeout(function () {
         errorElement.remove();
-    }, 3000);
+    }, 1000);
 }
