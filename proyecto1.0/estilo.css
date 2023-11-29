@@ -105,12 +105,12 @@
  }
 
  .input-box input {
-    padding: 7px; /*Agrega relleno al interior del cuadro de entrada.*/
-    outline: none; /* elimina el contorno de enfoque predeterminado que los navegadores aplican a los elementos enfocados.*/
-    border: none; /*Elimina el borde predeterminado del elemento de entrada*/
-    background:#eeeff1; /* establece el color de fondo del elemento de entrada.*/
-    border-radius: 0.5rem; /* Agrega un radio de borde para darle esquinas redondeadas */
-    font-size: 1rem; /*establece el tamaño de fuente para el texto dentro del elemento */
+    padding: 7px; 
+    outline: none; 
+    border: none; 
+    background:#eeeff1; 
+    border-radius: 0.5rem; 
+    font-size: 1rem;
  }
  .form-container form .btn {
    flex: 1 1 7rem;
