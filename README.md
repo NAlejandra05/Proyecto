@@ -7,7 +7,7 @@ Este proyecto tiene como objetivo ofrecer una aplicacion web para el alquiler de
   
   ## Estructura del Proyecto
   
-- `login.html`: Login de la aplicación.
+- login.html: Login de la aplicación.
 - `login.css`: Estilos para la página de inicio de sesión.
 - `login.js`: Lógica para la página de inicio de sesión.
 - `index.html`: Página principal de la aplicación.
