@@ -1,7 +1,7 @@
 var users = [
-    { email: 'usuario1@example.com', password: 'MySecret12' },
-    { email: 'usuario2@example.com', password: 'StrongPwd99' },
-    { email: 'usuario3@example.com', password: 'Abcd1234' }
+    { email: 'usuariop1@hotmail.com', password: 'MySecret12' },
+    { email: 'usuariop2@hotmail.com', password: 'StrongPwd99' },
+    { email: 'usuariop3@hotmail.com', password: 'Abcd1234' }
 ];
 
 // logica botón de iniciar sesión
@@ -22,7 +22,7 @@ function login() {
                 if (isValidUser) {
                     window.location.href = 'index.html';
                 } else {
-                    alert('Credenciales incorrectas. Por favor, inténtelo de nuevo.');
+                    alert('usuario o contraseña incorrecta. Por favor, inténtelo de nuevo.');
                 }
             })
             .catch(function(error) {
